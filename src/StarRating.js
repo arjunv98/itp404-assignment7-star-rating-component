@@ -17,6 +17,7 @@ function Star({ number, value, onClick, emptyColor, filledColor, size }) {
         icon={faStar}
         color={number <= value ? filledColor : emptyColor}
         size={size}
+        data-testid="star"
       />
     </span>
   );
